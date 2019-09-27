@@ -1,24 +1,22 @@
-# LAB - 31
+# LAB - 33
 
-## Hooks
+## Context
 
 ### Author: Jessica Walters
 
 ### Links and Resources
-* [submission PR](https://github.com/401-advanced-javascript-jessica/401-lab-31/pull/2)
-* [travis](https://www.travis-ci.com/401-advanced-javascript-jessica/401-lab-31)
-* [Amplify](https://master.d2wr32kcjq1684.amplifyapp.com/)
+* [submission PR](https://github.com/401-advanced-javascript-jessica/401-lab-33/pull/2)
+* [travis](https://www.travis-ci.com/401-advanced-javascript-jessica/401-lab-33)
+* [Amplify](https://master.dc9z2ummimaqu.amplifyapp.com/)
 
 #### Documentation
 * [styleguide](localhost:6060)
 
 ### Components
-#### `auth.js`
-#### `context.js`
-#### `login.js`
-#### `if.js`
-#### `header.js`
-#### `todo.js`
+#### `counter.js`
+#### `Decrementer.js`
+#### `Incrementer.js`
+#### `counter-context.js`
 
 ### Setup
 
