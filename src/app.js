@@ -1,13 +1,22 @@
 import React from 'react';
 
-import Counter from './components/counter/counter.js';
+import { CounterContext } from './components/CounterProvider/counter-context';
+import Counter from './components/counter/counter';
+import Decrement from './components/Decrementer/Decrementer';
+import Increment from './components/Incrementer/Incrementer';
 
 export default class App extends React.Component {
-  render() {
-    return (
+    static contextType = CounterContext;
+
+    render() {
+      return (
       <>
-        <Counter />
+          <div style={this.context.styles.container}>
+            <Decrement/>
+            <Counter />
+            <Increment/>
+          </div>
       </>
-    );
-  }
+      );
+    }
 }
