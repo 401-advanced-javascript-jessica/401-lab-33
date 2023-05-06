@@ -11,13 +11,13 @@
     "react-dom": "16.9.0",
     "react-jsonschema-form": "1.0.6",
     "react-router-dom": "5.0.0",
-    "react-scripts": "3.1.2",
+    "react-scripts": "5.0.1",
     "uuid": "3.3.3"
   },
   "devDependencies": {
     "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-react": "^7.14.3",
-    "react-styleguidist": "^9.1.16",
+    "react-styleguidist": "^13.1.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2"
   },
